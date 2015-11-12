@@ -13,7 +13,7 @@ Part 01 HTML
 ###9th November 2015
 
 
-+ [Version 2](https://pixelpaper.github.io/john-baskerville/version-2.html) - Added nested unordered list at the end of th **The Typeface** section.
++ [Version 2](https://pixelpaper.github.io/john-baskerville/version-2.html) - Added a nested, unordered list at the end of **The Typeface** section.
 + [Version 3](https://pixelpaper.github.io/john-baskerville/version-3.html) - Added simple navigation and links and anchors to each section plus included absolute link to my own website and mail link to my UU enail.
 
 ###16th November 2015
