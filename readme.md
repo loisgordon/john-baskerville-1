@@ -17,6 +17,7 @@ Part 01 HTML
 + [Version 3](https://pixelpaper.github.io/john-baskerville/version-3.html) - Added simple navigation and links and anchors to each section plus included absolute link to my own website and mail link to my UU enail.
 
 ###16th November 2015
++ [Version4](https://pixelpaper.github.io/john-baskerville/version-4.html) - Changed nested list to table.
 
 ---
 
