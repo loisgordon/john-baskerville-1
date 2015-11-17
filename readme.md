@@ -18,7 +18,6 @@ Part 01 HTML
 
 ###16th November 2015
 + [Version 4](https://pixelpaper.github.io/john-baskerville/version-4.html) - Changed nested list to table.
-
 + [Version 5](https://pixelpaper.github.io/john-baskerville/version-5.html) - Added optimised images to each section.
 ---
 
