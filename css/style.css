@@ -1,0 +1,77 @@
+/* JOHN BASKERVILLE CSS STYLING */
+
+body {
+       margin: auto;
+       max-width: 760px;
+       font-size: 100%;
+       font-family: 'Libre Baskerville', Baskerville, Georgia, 'Times New Roman', serif;
+       color: #666666;
+    }
+
+/*----------------- TYPOGRAPHY ---------------*/
+    
+    h1, h2, h3 {
+        font-weight: normal;
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+        
+    h1 {
+        font-size: ;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-top: 40px;
+    }
+    
+    h2 {
+        font-size: ;
+    }
+       
+    p {font-size: 1.375em;}
+
+blockquote {}
+    
+    cite {}  
+       
+/*----------------- SPECIFIC TYPOGRAPHIC STYLING ------------------*/
+
+   .intro {
+        font-size: ;
+    }
+        
+    .openingtext {
+        text-transform:uppercase;
+    }
+
+/*--------------- LINKS --------------*/
+       
+
+    a {
+        color: red;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+        
+    a:hover {
+        text-decoration: underline;
+        color: navy;
+    }
+
+/*--------------- NAV ---------------*/
+    
+    nav {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }    
+        
+    nav ul {
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 10px;
+    }
+ 
