@@ -23,7 +23,8 @@ Part 02 CSS
 -----------
 
 ###23rd November 2015
-+ [Hierarchy 1](https://pixelpaper.github.io/john-baskerville/hierarchy-1.html) - Creating separate, edited piece to look at hierarchy of text.
++ [Hierarchy 1](https://pixelpaper.github.io/john-baskerville/hierarchy.html) - Creating initial CSS pass to introduce first CSS steps.
++ [Hierarchy 2](https://pixelpaper.github.io/john-baskerville/hierarchy-1.html) - Creating separate, edited piece to look at hierarchy of text.
 
 + [Version 6](https://pixelpaper.github.io/john-baskerville/version-6.html) - Adding first set of CSS rules
 
