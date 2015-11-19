@@ -11,7 +11,7 @@ Part 01 HTML
 
 ###9th November 2015
 + [Version 2](https://pixelpaper.github.io/john-baskerville/version-2.html) - Added a nested, unordered list at the end of **The Typeface** section.
-+ [Version 3](https://pixelpaper.github.io/john-baskerville/version-3.html) - Added simple navigation and links and anchors to each section plus included absolute link to my own website and mail link to my UU enail.
++ [Version 3](https://pixelpaper.github.io/john-baskerville/version-3.html) - Added simple navigation and links and anchors to each section plus included absolute link to my own website and mail link to my UU email.
 
 ###16th November 2015
 + [Version 4](https://pixelpaper.github.io/john-baskerville/version-4.html) - Changed nested list to table.
@@ -23,6 +23,8 @@ Part 02 CSS
 -----------
 
 ###23rd November 2015
+
++ [Version 6](https://pixelpaper.github.io/john-baskerville/version-6.html) - Adding first set of CSS rules
 
 ###30th November 2015
 
