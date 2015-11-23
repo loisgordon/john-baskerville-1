@@ -11,14 +11,17 @@
         line-height: 1.8em;
         }
     
+/* TYPOGRAPHY */
+
     h1, h2, h3 {
         font-weight: normal;
-        color: #c06;
-    }
+        color: #c06;}
         
     h1 {font-size: 3.375em;}
     h2 {font-size: 2.25em;}
     h3 {font-size: 1.5em;}
+
+    .intro {font-size: 1.5em; }
     
 
     
