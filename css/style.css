@@ -23,11 +23,20 @@ body {
         margin-top: 40px;
     }
     
-    h2 {
-        font-size: ;
-    }
-       
-    p {font-size: 1.375em;}
+    header h2 {
+        font-style: italic;
+        margin: -.5em 0 1em 0;
+        font-size: 1.75em;
+        padding-bottom: 2em;}
+
+    .intro {
+        font-size: 1.25em;
+        line-height: 1.9em;
+      }
+    
+.anchor {text-transform: uppercase;
+font-size: .75em;}
+
 
 blockquote {}
     

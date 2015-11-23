@@ -1,7 +1,7 @@
 
     body {
         width: 75%;
-        max-width: 650px;
+        max-width: 700px;
         min-height: 320px;
         font-size: 100%;
         font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman', serif; 
@@ -11,6 +11,8 @@
         line-height: 1.8em;
         }
     
+section {padding: 4em 0 4em 0}
+
 /* TYPOGRAPHY */
 
     h1, h2, h3 {
@@ -21,7 +23,18 @@
     h2 {font-size: 2.25em;}
     h3 {font-size: 1.5em;}
 
-    .intro {font-size: 1.5em; }
-    
+    .intro {
+        font-size: 1.25em;
+        line-height: 1.9em;
+      }
 
-    
+/* -------------- LINKs -------------------- */
+
+a {
+    color: #c06;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+}
