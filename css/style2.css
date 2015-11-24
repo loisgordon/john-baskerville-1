@@ -20,12 +20,11 @@
 article {
         width: 75%;
         max-width: 700px;
-        min-height: 320px;
         margin: 20px auto;
 }
 
     
-section {padding: 4em 0 4em 0}
+section {padding: 4em 0}
 
 /* ----------------- TYPOGRAPHY ---------------------*/
 
@@ -155,4 +154,39 @@ footer {
     line-height: 1.5em;
     padding-bottom: 2em;
 }
+
+
+/* ----------------- MEDIA QUERIES ----------------------*/
+
+/*----------- SMARTPHONE ----------- */
+@media (max-width: 30em) {
+    
+   body {
+    background: #c06;
+    width: 100%;
+    padding: 0 1em;
+    font-size: 110%;
+    }
+    
+article {
+    margin: .5em;
+    width: 100%;
+    }    
+}
+
+@media (max-width: 48em) {
+    
+   body {
+    background: #c06;
+    width: 100%;
+    padding: 0 1em;
+    }
+    
+article {
+    margin: .5em;
+    width: 100%;
+    }    
+}
+
+
 
