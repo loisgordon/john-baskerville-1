@@ -113,53 +113,30 @@ nav a:hover {
 
 /* ------------------ TABLE -----------------------*/
 
-
 table {
-   border-spacing: 0px;
     margin: auto;
-    }
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: gray}
 
 caption {
     margin-bottom: .75em;
     text-transform: uppercase;
-    font-size: .75em;
-}
+    font-size: .9em;}
 
-th, td {
-    padding: .5em;
-    border-spacing: 0px;
-    font-size: 90%;
-    margin: 0px;
-    }
-
-th, td {
-    text-align: left;
-    background-color: #fff;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    border-right: 1px solid #333; 
-    }
 table.head, th {
     color: #fff;
     text-align: center;
-    background: #333;
-    border-top: 1px solid #90b4d6;
-    border-bottom: 2px solid #547ca0;
-    border-right: 1px solid #749abe; 
-    }
+    background: #333;}
 
-tr.head th:first-child {
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-top-left: 5px;
-    border-top-left-radius: 5px;
-    }
+th, td {
+    padding: .6em;}
 
-tr.head th:last-child {
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-top-left: 5px;
-    border-top-left-radius: 5px;
-    }
-
+table, th, td {
+   border: 1px solid black;
+}
 
 /* ------------------- IMAGES -------------------- */
 
