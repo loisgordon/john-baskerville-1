@@ -1,0 +1,41 @@
+/*-------------------- LIGATURES -------------------*/
+
+body {
+ text-rendering: optimizeLegibility;
+    font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
+    font-family: "athelas",serif;
+    font-family: "minion-pro",serif;
+   /*font-family: "warnock-pro",serif;*/
+   }
+
+h1, h3 {    color: #333;
+}
+
+h3 {font-size: 1.7em;}
+
+h1 {
+    font-size: 8em;
+    margin-top: .5em;
+}
+
+.ligatures {
+    color: #333;
+    font-size: 9em;
+    margin-top: .5em;
+ /*  font-family: 'Playfair Display', serif; */
+    }
+.discretionary h1 {
+    color: #c06;
+    font-size: 5em;
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "dlig";
+  -webkit-font-feature-settings: "dlig";
+  font-feature-settings: "dlig";";
+}
+
+.numerals {
+  font-variant-numeric: oldstyle-nums;
+  -moz-font-feature-settings: "onum";
+  -webkit-font-feature-settings: "onum";
+  font-feature-settings: "onum";
+}

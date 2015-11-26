@@ -9,77 +9,83 @@
 
 
 /* --------------------- MY CSS STYLING ----------------- */
-    body {
-       
-        font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman', serif; 
-        background-color: #fafafa;
-        color: #333;  }
+body {
+    font-family: "athelas",serif;
+  font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman', serif;
+    background-color: #fafafa;
+    
+    color: #333;  }
 
 /* Layout */
 
 article {
-        width: 75%;
-        max-width: 700px;
-        margin: 20px auto;
-}
+    width: 75%;
+    max-width: 700px;
+    margin: 20px auto;}
 
     
 section {padding: 4em 0}
 
 /* ----------------- TYPOGRAPHY ---------------------*/
 
-    h1, h2, h3 {
-        font-weight: normal;
-        color: #c06;
-        text-align: center;
-        }
+h1, h2, h3 {
+    font-weight: normal;
+    color: #c06;
+    text-align: center;}
 
-    p, li {
+p, li {
     line-height: 1.8em;
-    margin-bottom: 2em;
-}
+    margin-bottom: 2em;}
         
-    h1 {font-size: 4em;
+h1 {font-size: 4em;
        margin-bottom: .1em;}
 
-    h2 {font-size: 2.25em;
-        color: #333;
-    }
+h2 {font-size: 2.25em;
+    margin-bottom: 1em;}
 
-    h3 {font-size: 1.5em;}
 
-    header h2 {
-        font-style: italic;
-        font-size: 1.8em;}
+hgroup h2 {color: #333}
+
+h3 {font-size: 1.5em;
+    margin: 2em 0}
+
+header h2 {
+    font-style: italic;
+    font-size: 1.8em;}
         
-     hgroup {   margin-bottom: 3em;}   
+hgroup {  
+    margin-bottom: 3em;}   
     
 
-    .intro {
-        font-size: 1.25em;
-        line-height: 1.9em;
-      }
+.intro {
+    font-size: 1.25em;
+    line-height: 1.9em;}
 
-    blockquote {
-    
-        padding: 2em 0;
-        font-size: 1.75em;
-        line-height: 1.5em;
-        margin: 0;}
+blockquote {
+    padding: 1em 0 2em 0;
+    font-size: 1.75em;
+    line-height: 1.4em;
+    margin: 0;}
 
-   blockquote cite    {
-        font-size: .75em; }
+blockquote cite    {
+    font-size: .75em; 
+}
 
- blockquote p {
-            color: #999;
-            hanging-punctuation: first;
-            text-indent: -0.5em; /* Change according to your font */
+blockquote p {
+    color: #777;
+    hanging-punctuation: first;
+    text-indent: -0.5em; /* Change according to your font */
             }
 
-    .anchor {
-        text-transform: uppercase;
-        font-size: .75em;
-    }
+.anchor {
+    text-transform: uppercase;
+    font-size: .75em;}
+
+.leader {
+       font-variant-caps: small-caps;
+  -moz-font-feature-settings: "smcp";
+  -webkit-font-feature-settings: "smcp";
+  font-feature-settings: "smcp"; }
 
 /* -------------- LINKS -------------------- */
 
@@ -121,7 +127,8 @@ table {
     display: table;
     border-collapse: collapse;
     border-spacing: 2px;
-    border-color: gray;}
+    border-color: gray;
+}
 
 caption {
     margin-bottom: .75em;
@@ -130,7 +137,9 @@ caption {
 
 table.head, th {
     color: #fff;
-    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
     background: #333;}
 
 th, td {
@@ -146,6 +155,7 @@ img {
     margin: 1em auto; /* This sets the margin top and bottom to 0px. The auto on the left and right will automatically calculate the space either side and split it evenly between the two margins. */
     padding: 0;
     max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
+   /* border: #c06 5px solid; */
 }
 
 
@@ -157,34 +167,42 @@ footer {
     padding-bottom: 2em;
 }
 
+footer hr {margin-bottom: 3em}
+
+.contact {
+    padding-top: 2em;
+    margin: auto;
+    text-align: center}
+
+.contact a {margin: 0 1em;
+padding: 7px; }
+
+/*---------------- WEEK 12 SPRINKLES ----------------*/
+/*.contact a:hover {
+        padding: 7px;
+        background: #c06;
+        color: #fff;
+        border-bottom: none;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out; 
+		-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+        border-radius: 1em;} */
 
 /* ----------------- MEDIA QUERIES ----------------------*/
 
-/*----------- SMARTPHONE ----------- */
-@media (max-width: 30em) {
-    
-   body {
-    width: 100%;
-    padding: 0 1em;
-    font-size: 110%;
-    }
-    
-article {
-    margin: .5em;
-    width: 100%;
-    }    
-}
 
-@media (max-width: 48em) {
+/*------------------ TABLET ----------------------*/
+/* @media (max-width: 50em) {
     
    body {
-    width: 100%;
-    padding: 0 1em;
+    background: aqua;  
+
     }
     
 article {
-    margin: .5em;
-    width: 100%;
+    width: 95%;
+    padding: 0.5em;
     } 
     
     img {
@@ -193,7 +211,29 @@ article {
     padding: 0;
     max-width: 100%;
 }
+} */
+
+/*----------- SMARTPHONE ----------- */
+ /*@media (max-width: 31em) {
+    
+   body {
+    margin: auto 0;
+    background: #BEE9C7;
+    width: 100%;
+    font-size: 110%;
+    }
+    
+article {
+    width: 90%;
+    } 
+
+h1 {font-size: 2.9em;}   
+
+    
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}      
 }
 
-
+nav ul li {font-size: .75em;
+        margin: 10px} */
 
