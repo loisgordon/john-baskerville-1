@@ -10,8 +10,7 @@
 
 /* --------------------- MY CSS STYLING ----------------- */
 body {
-    font-family: "athelas",serif;
-  /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman', serif; */
+  font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman', serif; 
     background-color: #fafafa;
     
     color: #333;  }
