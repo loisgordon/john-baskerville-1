@@ -26,7 +26,7 @@ Part 02 CSS
 + [Version 6](https://pixelpaper.github.io/john-baskerville/version-6.html) - Adding first set of CSS rules. Concentrating on typographic layout at the moment.
 
 ###30th November 2015
-+ [Version 7]() - Taking CSS a step further. Adding CSS reset, styling the table and fluid images.
++ [Version 7](https://pixelpaper.github.io/john-baskerville/version-7.html) - Taking CSS a step further. Adding CSS reset, styling the table and fluid images.
 
 
 ###7th December 2015

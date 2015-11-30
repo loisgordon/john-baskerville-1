@@ -35,7 +35,7 @@ h1, h2, h3 {
 
 p, li {
     line-height: 1.8em;
-    margin-bottom: 2em;}
+    margin-bottom: 1em;}
         
 h1 {font-size: 4em;
        margin-bottom: .1em;}
@@ -50,6 +50,7 @@ h3 {font-size: 1.5em;
     margin: 2em 0}
 
 header h2 {
+    margin-top: 
     font-style: italic;
     font-size: 1.8em;}
         
@@ -62,7 +63,7 @@ hgroup {
     line-height: 1.9em;}
 
 blockquote {
-    padding: 1em 0 2em 0;
+    padding: 1em 0 2em 1em;
     font-size: 1.75em;
     line-height: 1.4em;
     margin: 0;}
@@ -82,10 +83,9 @@ blockquote p {
     font-size: .75em;}
 
 .leader {
-       font-variant-caps: small-caps;
-  -moz-font-feature-settings: "smcp";
-  -webkit-font-feature-settings: "smcp";
-  font-feature-settings: "smcp"; }
+       text-transform: uppercase}
+
+.mreeaves {color: brown}
 
 /* -------------- LINKS -------------------- */
 
@@ -103,8 +103,10 @@ a:hover {
 /* ---------------- NAV ------------------- */
 
 nav { 
+    padding: 1em 0;
     border-top: 1px solid #333;
-    border-bottom: 1px solid #333;}
+    border-bottom: 1px solid #333;
+margin-bottom: 4em}
 
 nav ul {
     text-align: center;
@@ -127,13 +129,12 @@ table {
     display: table;
     border-collapse: collapse;
     border-spacing: 2px;
-    border-color: gray;
 }
 
 caption {
-    margin-bottom: .75em;
+    margin-bottom: 1.5em;
     text-transform: uppercase;
-    font-size: .9em;}
+    }
 
 table.head, th {
     color: #fff;
@@ -145,8 +146,10 @@ table.head, th {
 th, td {
     padding: .6em;}
 
-table, th, td {
-   border: 1px solid black;}
+table, td {
+   background: #cc0066;
+   background: rgba(0,0,0,.1);    
+   border: 1px dotted #fff;}
 
 /* ------------------- IMAGES -------------------- */
 
@@ -193,12 +196,9 @@ padding: 7px; }
 
 
 /*------------------ TABLET ----------------------*/
-/* @media (max-width: 50em) {
+@media (max-width: 50em) {
     
-   body {
-    background: aqua;  
-
-    }
+   
     
 article {
     width: 95%;
@@ -210,15 +210,14 @@ article {
     margin: 1em auto;
     padding: 0;
     max-width: 100%;
-}
-} */
+    }
+} 
 
 /*----------- SMARTPHONE ----------- */
- /*@media (max-width: 31em) {
+ @media (max-width: 30em) {
     
    body {
     margin: auto 0;
-    background: #BEE9C7;
     width: 100%;
     font-size: 110%;
     }
@@ -229,11 +228,14 @@ article {
 
 h1 {font-size: 2.9em;}   
 
-    
+blockquote p{padding: 0;
+line-height: 1.5em}  
+     
 hgroup h2 {font-size: 1.5em;
-padding-top: 0.5em}      
+padding-top: 0.5em}  
+     
+nav ul li {font-size: .75em;
+        margin: 10px}
 }
 
-nav ul li {font-size: .75em;
-        margin: 10px} */
 
