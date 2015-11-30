@@ -4,8 +4,8 @@ body {
  text-rendering: optimizeLegibility;
     font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
     font-family: "athelas",serif;
-    font-family: "minion-pro",serif;
-   /*font-family: "warnock-pro",serif;*/
+   /* font-family: "minion-pro",serif;
+   font-family: "warnock-pro",serif;*/
    }
 
 h1, h3 {    color: #333;
@@ -22,7 +22,7 @@ h1 {
     color: #333;
     font-size: 9em;
     margin-top: .5em;
- /*  font-family: 'Playfair Display', serif; */
+ font-family: 'Playfair Display', serif; */
     }
 .discretionary h1 {
     color: #c06;
