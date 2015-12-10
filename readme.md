@@ -28,7 +28,5 @@ Part 02 CSS
 ###30th November 2015
 + [Version 7](https://pixelpaper.github.io/john-baskerville/version-7.html) - Taking CSS a step further. Adding CSS reset, styling the table and fluid images.
 
-
 ###7th December 2015
-+ [Version 8](https://pixelpaper.github.io/john-baskerville/version-8.html) - Added multiple images
-+ [Version 7](https://pixelpaper.github.io/john-baskerville/version-7.html) - Adding CSS3 sprinkles
++ [Version 8](https://pixelpaper.github.io/john-baskerville/version-9.html) - Added multiple images and CSS3 text dropshadow, opacity, ease-in-out, and scale features.
