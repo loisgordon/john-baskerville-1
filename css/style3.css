@@ -115,16 +115,20 @@ a:hover {
     border-bottom: 1px dotted;
 }
 
- .anchor a {color: aqua;}
 /* ---------------- NAV ------------------- */
 
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: #333;
     margin: auto 0;
-    padding: 1em 0;
-    margin-bottom: 4em;}
+    padding: .7em 0;
+}
 
 nav ul {
+    font-size: 0.75em;
+    font-weight: normal;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;}
@@ -139,10 +143,10 @@ nav a {
 nav a:hover {
     color: #c06;
     border-bottom: none;
-    -webkit-transition: all 0.3s ease-in-out;
-		-moz-transition: all 0.3s ease-in-out; 
-		  -o-transition: all 0.3s ease-in-out;
-			 transition: all 0.3s ease-in-out; 
+    -webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out; 
+		  -o-transition: all 0.2s ease-in-out;
+			 transition: all 0.2s ease-in-out; 
     }
 
 
