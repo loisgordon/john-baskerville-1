@@ -275,9 +275,9 @@ footer hr {margin-bottom: 3em
 		-o-transition: all 0.3s ease-in-out;
 			transition: all 0.3s ease-in-out; 
     
-		-moz-transform:scale(1.5);
-			-webkit-transform:scale(1.5);
-				transform:scale(1.5);}	
+		-moz-transform:scale(1.2);
+			-webkit-transform:scale(1.2);
+				transform:scale(1.2);}	
 
 /* ----------------- MEDIA QUERIES ----------------------*/
 
