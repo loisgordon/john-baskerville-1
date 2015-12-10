@@ -30,3 +30,5 @@ Part 02 CSS
 
 
 ###7th December 2015
++ [Version 8](https://pixelpaper.github.io/john-baskerville/version-8.html) - Added multiple images
++ [Version 7](https://pixelpaper.github.io/john-baskerville/version-7.html) - Adding CSS3 sprinkles
