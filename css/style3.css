@@ -11,15 +11,14 @@
 /* --------------------- MY CSS STYLING ----------------- */
 body {
   font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman', serif; 
-    background-color: #fafafa;
-    
-    color: #333;  }
+   color: #333; }
 
 /* Layout */
 
 article {
     width: 75%;
     max-width: 700px;
+    padding-top: 4em;
     margin: 20px auto;}
 
     
@@ -44,12 +43,13 @@ p, li {
     line-height: 1.8em;
     margin-bottom: 1em;}
         
-h1 {font-size: 4em;
+h1 {font-size: 4.5em;
        margin-bottom: .1em;}
 
 h2 {font-size: 2.25em;
     margin-bottom: 1em;}
 
+hgroup h1 {text-shadow: 2px 2px 0px #fff, 4px 3px 0px rgba(0,0,0,0.5);} 
 
 hgroup h2 {color: #333}
 
@@ -57,26 +57,29 @@ h3 {font-size: 1.5em;
     margin: 2em 0}
 
 header h2 {
-    margin-top: 
+    margin-top: ;
     font-style: italic;
     font-size: 1.8em;}
+
+
         
 hgroup {  
     margin-bottom: 3em;}   
-    
+
 
 .intro {
     font-size: 1.25em;
     line-height: 1.9em;}
 
 blockquote {
-    padding: 1em 0 2em 1em;
+    padding: 1em 0 2em 0;
     font-size: 1.75em;
     line-height: 1.4em;
     margin: 0;}
 
 blockquote cite    {
-    font-size: .75em; 
+    color: #777;
+    font-size: .6em; 
 }
 
 blockquote p {
@@ -91,6 +94,14 @@ blockquote p {
 
 .leader {
        text-transform: uppercase}
+
+.kerntight {
+    letter-spacing: -5px;
+    }
+
+.kernloose {
+    letter-spacing: 5px;
+    }
 
 /* -------------- LINKS -------------------- */
 
@@ -107,11 +118,11 @@ a:hover {
  .anchor a {color: aqua;}
 /* ---------------- NAV ------------------- */
 
-nav { 
+nav {
+    background: #333;
+    margin: auto 0;
     padding: 1em 0;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-margin-bottom: 4em}
+    margin-bottom: 4em;}
 
 nav ul {
     text-align: center;
@@ -122,9 +133,18 @@ nav ul li {
     display: inline;
     margin: 20px; }
 
+nav a {
+    color: #fff;}
+
 nav a:hover {
-     border-bottom: none;
+    color: #c06;
+    border-bottom: none;
+    -webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out; 
+		  -o-transition: all 0.3s ease-in-out;
+			 transition: all 0.3s ease-in-out; 
     }
+
 
 /* ------------------ TABLE -----------------------*/
 
@@ -146,7 +166,7 @@ table.head, th {
     text-transform: uppercase;
     font-weight: normal;
     text-align: left;
-    background: #333;}
+    background: #c06;}
 
 th, td {
     padding: .6em;}
@@ -154,48 +174,110 @@ th, td {
 table, td {
    background: #cc0066;
    background: rgba(0,0,0,.1);    
-   border: 1px dotted #fff;}
+   border: 1px solid #fff;}
 
 /* ------------------- IMAGES -------------------- */
 
 img {
     display: block;
     margin: 1em auto; /* This sets the margin top and bottom to 0px. The auto on the left and right will automatically calculate the space either side and split it evenly between the two margins. */
+    margin-bottom: 2em;
     padding: 0;
     max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
-   /* border: #c06 5px solid; */
+   border: #333 5px solid;
 }
 
+
+/*.floatright {float: right;
+    position: relative;
+    padding: .5em 0 0 1em
+} */
+
+
+  hr {
+            margin: 50px 0;
+           height: 1px;    
+           background-color:#c06;
+            color:#c06;
+            border: 0 none;
+        }
+
+
+
+.foundries img, ul, li {
+    list-style: none;
+    }
+
+.foundries img {
+    display: block;
+    align-items: center;
+    /*width: 220px;*/
+    border: 1px solid #333;
+  float: left;
+    margin: 0 5px 5px 0; */
+   /* -webkit-box-shadow: 0px 4px 5px 0px rgba(51,51,51,1);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(51,51,51,1);
+    box-shadow: 0px 4px 5px 0px rgba(51,51,51,1);*/
+    }
+
+
+p {clear: both}
 
 /* --------------------- FOOTER --------------------- */
 
 footer {
+    text-align: center;
     font-size: .75em;
     line-height: 1.5em;
     padding-bottom: 2em;
+    }
+
+footer+small {
+    text-align: left
+    }
+
+
+
+footer hr {margin-bottom: 3em
+    }
+
+
+.connections {
+	position: relative;
+	margin: 0 auto;
+	margin: 20px, 0;
 }
 
-footer hr {margin-bottom: 3em}
+.connections ul {
+	margin: 0;
+	padding: 0;}
 
-.contact {
-    padding-top: 2em;
-    margin: auto;
-    text-align: center}
+.connections li {
+	margin: 0 15px;
+	padding: 0;
+	list-style: none; 
+	display: inline-block;}
+	
+.connections a:link {
+	border-bottom: none;}
+	
+.connections img {
+	opacity: 0.5;
 
-.contact a {margin: 0 1em;
-padding: 7px; }
-
-/*---------------- WEEK 12 SPRINKLES ----------------*/
-/*.contact a:hover {
-        padding: 7px;
-        background: #c06;
-        color: #fff;
-        border-bottom: none;
+	}
+	
+.connections a:hover img {
+		opacity: 1.0;
+		border-bottom: none;
+    
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out; 
 		-o-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;
-        border-radius: 1em;} */
+			transition: all 0.3s ease-in-out; 
+    
+		-moz-transform:scale(1.5);
+			-webkit-transform:scale(1.5);
+				transform:scale(1.5);}	
 
 /* ----------------- MEDIA QUERIES ----------------------*/
 

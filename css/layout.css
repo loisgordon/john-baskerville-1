@@ -23,7 +23,7 @@ article {
     margin: 20px auto;}
 
     
-section {padding: 4em 0}
+section {padding: 2em 0}
 
 figure {
     margin: auto 0;
@@ -39,6 +39,8 @@ h1, h2, h3 {
     font-weight: normal;
     color: #c06;
     text-align: center;}
+
+p {clear: both}
 
 p, li {
     line-height: 1.8em;
@@ -56,8 +58,9 @@ hgroup h2 {color: #333}
 h3 {font-size: 1.5em;
     margin: 2em 0}
 
+/*header {}*/
+
 header h2 {
-    margin-top: 
     font-style: italic;
     font-size: 1.8em;}
         
@@ -111,7 +114,7 @@ nav {
     padding: 1em 0;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
-margin-bottom: 4em}
+    margin-bottom: 2em}
 
 nav ul {
     text-align: center;
@@ -165,6 +168,14 @@ img {
     max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
    /* border: #c06 5px solid; */
 }
+
+img {float: left;
+    margin: .5em 1em 0 0
+}
+
+
+
+/*---------------------- LAYOUT --------------------- */
 
 
 /* --------------------- FOOTER --------------------- */
