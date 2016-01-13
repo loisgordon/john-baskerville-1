@@ -24,6 +24,7 @@ Part 02 CSS
 
 ###23rd November 2015
 + [Version 6](https://pixelpaper.github.io/john-baskerville/version-6.html) - Adding first set of CSS rules. Concentrating on typographic layout at the moment.
++ [CSS Exercise](https://pixelpaper.github.io/john-baskerville/exercss-1.html) – This week should also include the CSS Exercise
 
 ###30th November 2015
 + [Version 7](https://pixelpaper.github.io/john-baskerville/version-7.html) - Taking CSS a step further. Adding CSS reset, styling the table and fluid images.
