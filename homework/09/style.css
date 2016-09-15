@@ -79,7 +79,7 @@ a {
     nav ul li {
         display: inline;
         margin: 10px;
-    }
+    } 
 
 /*--------------- HR ---------------*/
 
@@ -93,4 +93,11 @@ a {
  
 /*--------------- TABLE ----------------*/
 
-table {margin: 3em 0;}
+table {
+    margin: auto;
+    font-size: 0.8em;
+}
+
+
+
+
