@@ -15,7 +15,7 @@ body {
 
 /* Layout */
 
-article {
+section {
     width: 75%;
     max-width: 700px;
     padding-top: 4em;
@@ -102,6 +102,9 @@ blockquote p {
 .kernloose {
     letter-spacing: 5px;
     }
+
+
+.indent {padding-left: 4em}
 
 /* -------------- LINKS -------------------- */
 
@@ -206,7 +209,7 @@ img {
             border: 0 none;
         }
 
-
+section .foundries {background: #000; width: 100%}
 
 .foundries img, ul, li {
     list-style: none;

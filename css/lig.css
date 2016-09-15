@@ -1,41 +1,51 @@
 /*-------------------- LIGATURES -------------------*/
 
 body {
- text-rendering: optimizeLegibility;
-    font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
-    font-family: "athelas",serif;
-       /* font-family: "minion-pro",serif;
-   font-family: "warnock-pro",serif;*/
-      -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  -moz-font-feature-settings: "kern=1", "liga=1", "dlig=1", "hlig=1";
-  -moz-font-feature-settings: "kern" on, "liga" on, "dlig" on, "hlig" on;
-  -webkit-font-feature-settings: "kern","liga","dlig","hlig";
-  -ms-font-feature-settings: "kern","liga","dlig","hlig";
-  font-feature-settings: "kern","liga","dlig","hlig"; 
+    text-rendering: optimizeLegibility;
+    
+    font-family: "bookmania",serif;
+    font-style: normal;
+    font-weight: 300;
+ /* font-family: "athelas",serif;
+    font-family: "minion-pro",serif; 
+    font-family: "warnock-pro",serif; */
+    -moz-font-feature-settings:"liga=1";
+	-ms-font-feature-settings:"liga" 1;
+	-o-font-feature-settings:"liga" 1;
+	-webkit-font-feature-settings:"liga" 1;
+	font-feature-settings:"liga" 1;
    }
 
-h1, h3 {    color: #333;
+h1, h2, h3 {    color: #333;
 }
+
+h2 {margin-top: 2em}
 
 h3 {font-size: 1.7em;}
 
-h1 {
+h1 {font-weight: normal;
     font-size: 8em;
     margin-top: .5em;
+  }
+
+h1 {
+    -moz-font-feature-settings:"liga=1, dlig=1";
+	-ms-font-feature-settings:"liga" 1, "dlig" 1;
+	-o-font-feature-settings:"liga" 1, "dlig" 1;
+	-webkit-font-feature-settings:"liga" 1, "dlig" 1;
+	font-feature-settings:"liga" 1, "dlig" 1;
 }
 
 .ligatures {
     color: #333;
     font-size: 9em;
     margin-top: .5em;
- font-family: 'Playfair Display', serif; */
+   /* font-family: 'Playfair Display', serif; */
     }
+
 .discretionary h1 {
     color: #c06;
-    font-size: 5em;
+    font-size: 5em; 
 }
 
 .numerals {
