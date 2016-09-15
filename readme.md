@@ -31,3 +31,6 @@ Part 02 CSS
 
 ###7th December 2015
 + [Version 8](https://pixelpaper.github.io/john-baskerville/version-8.html) - Added multiple images and CSS3 text dropshadow, opacity, ease-in-out, and scale features.
+
+###7th December 2015
++ [CSS Homework Test](https://pixelpaper.github.io/john-baskerville/homework/09/index.html) - Testing first CSS homework page
